@@ -1,5 +1,8 @@
 <?php
 
+	use Database\DBConnection;
+	use Email\EmailDataAdapter;
+
 	class User {
 		public $name;
 		public $email;
